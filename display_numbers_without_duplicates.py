@@ -6,3 +6,5 @@ for i in range(5):
 for n in numbers:
     if numbers.count(n) == 1:
         print(n)
+else:
+        print("no unique numbers!!!")
