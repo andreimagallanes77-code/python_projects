@@ -1,10 +1,10 @@
-text = input("Enter a string: ")
-result = ""
+input_text = input("Enter a string: ")
+uppercase_text = ""
 
-for ch in text:
-    if 'a' <= ch <= 'z':
-        result += chr(ord(ch) - 32)
+for character in input_text:
+    if 'a' <= character <= 'z':
+        uppercase_text += chr(ord(character) - 32)
     else:
-        result += ch
+        uppercase_text += character
 
-print("Uppercase:", result)
+print("Uppercase:", uppercase_text)
